@@ -2,13 +2,7 @@ import { StyleSheet } from "react-native";
 
 
 const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: '#FAFAFA', // світлий фон
-    },
-    scrollContent: {
-      padding: 20,
-    },
+
     content: {
       alignItems: 'center',
       backgroundColor: '#FFFFFF',

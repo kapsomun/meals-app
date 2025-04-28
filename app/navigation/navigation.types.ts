@@ -1,12 +1,14 @@
 import { ComponentType } from 'react';
 
 export type TypeRootStackParamList = {
-  Categories: undefined;
-  MealsOverview: { categoryId: string };
-  MealDetails: { mealId: string };
+  Drawer: undefined;
+	Categories: undefined;
+	MealsOverview: { categoryId: string };
+	MealDetails: { mealId: string };
+	Favorites: undefined;
 };
 
 export interface IRoute {
-  name: keyof TypeRootStackParamList;
-  component: ComponentType;
+	name: keyof TypeRootStackParamList;
+	component: ComponentType;
 }
